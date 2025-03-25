@@ -28,7 +28,8 @@ Bu proje, bir kontrol sistemi tasarımı dersi için yaptığım iki ana bölüm
 
 İlk olarak, "A dosyası" adını verdiğim ana modelde bir DC motoru PWM (Pulse Width Modulation) sinyali kullanarak kontrol eden bir Simscape modeli oluşturdum. Bu model, gerçek hayatta sıkça kullanılan motor sürüş devrelerinin benzetimini yapıyor.
 
-![DC Motor Simscape Model](https://placekitten.com/800/400) <!-- Buraya gerçek model görselinizi koymalısınız -->
+![image](https://github.com/user-attachments/assets/f7e30612-3981-4576-ad6f-bf3f1c285bd0)
+
 
 ### H-Bridge Yapısı ve Çalışma Prensibi
 
@@ -154,7 +155,8 @@ Bu değerleri Simulink modelime girdim ve çalıştırdığımda şu performans 
 
 İşte istediğimiz kriterleri sağlayan bir çözüm! Kontrol edilmemiş sistemle karşılaştırdığımda fark çok barizdi. Kontrol edilmemiş sistem çok yavaş tepki veriyordu ve yerleşme süresi çok uzundu. PID kontrolcü ekleyince, sistem hem daha hızlı hem de daha kararlı hale geldi.
 
-![PID Kontrolcü Karşılaştırma](https://placekitten.com/800/500) <!-- Buraya gerçek grafik görselinizi koymalısınız -->
+![image](https://github.com/user-attachments/assets/feece6aa-8822-4fc2-a130-044b61ddba45)
+
 
 ### Karşılaştığım Zorluklar
 
